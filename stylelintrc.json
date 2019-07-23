@@ -1,0 +1,34 @@
+{
+    "plugins":[
+        "stylelint-scss",
+        "extends": "stylelint-config-recess-order"
+    ],
+    "rules":{
+       "indentaion": 4　,
+       "string-quotes": "double",
+       "selector-no-id": "true" ,
+       "declaration-no-important": "true",
+       "number-zero-length-no-unit": "true",
+       "number-leading-zero": "never",
+       "at-rule-empty-line-before":"always",
+       "function-comma-space-after" :"true",
+       "declaration-colon-space-after":"always",
+       "selector-class-pattern": "^([a-z][a-z0-9]*)(_[a-z0-9]+)*$" ,
+       "value-no-vendor-prefix": "true",
+       "stylelint-config-recess-order":[
+           "box-sizing",
+           "display",
+           "visibility",
+           "float",
+           "posting",
+           "z-index",
+           "width",
+           "height",
+           "margin",
+           "padding",
+           "border",
+           "color",
+           "background-color"
+       ]
+    }
+}
